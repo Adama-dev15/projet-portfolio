@@ -2,6 +2,7 @@ import React from "react";
 import "./Blog.css";
 import { Typography } from "../ui/Typography";
 import { ArrowRight } from "lucide-react";
+import Image from "next/image";
 
 const Blog = () => {
   return (
@@ -28,7 +29,12 @@ const Blog = () => {
             <div className="blog_cards">
               <div className="card">
                 <div className="img_card">
-                  <img src="../../../images/blog_1.jpg" alt="image" />
+                  <Image
+                    src={"/images/blog_1.jpg"}
+                    alt="image"
+                    width={500}
+                    height={500}
+                  />
                 </div>
 
                 <div className="info">
@@ -50,7 +56,12 @@ const Blog = () => {
               </div>
               <div className="card">
                 <div className="img_card">
-                  <img src="../../../images/blog_2.jpg" alt="image" />
+                  <Image
+                    src={"/images/blog_2.jpg"}
+                    alt="image"
+                    width={500}
+                    height={500}
+                  />
                 </div>
                 <div className="info">
                   {" "}
@@ -71,7 +82,12 @@ const Blog = () => {
               </div>
               <div className="card">
                 <div className="img_card">
-                  <img src="../../../images/blog_3.jpg" alt="image" />
+                  <Image
+                    src={"/images/blog_3.jpg"}
+                    alt="image"
+                    width={500}
+                    height={500}
+                  />
                 </div>
                 <div className="info">
                   <h3 className="name">We travelled much</h3>

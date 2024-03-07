@@ -2,6 +2,7 @@ import React from "react";
 import "./Services.css";
 import { Typography } from "../ui/Typography";
 import { ArrowRight } from "lucide-react";
+import Image from "next/image";
 
 const Services = () => {
   return (
@@ -32,7 +33,12 @@ const Services = () => {
                   </div>
                 </div>
                 <div className="img_card">
-                  <img src="../../../images/frontend.jpg" alt="" />
+                  <Image
+                    src={"/images/frontend.jpg"}
+                    alt="image"
+                    width={500}
+                    height={500}
+                  />
                 </div>
               </div>
               <div className="card">
@@ -44,7 +50,12 @@ const Services = () => {
                   </div>
                 </div>
                 <div className="img_card">
-                  <img src="../../../images/backend.png" alt="" />
+                  <Image
+                    src={"/images/backend.png"}
+                    alt="image"
+                    width={500}
+                    height={500}
+                  />
                 </div>
               </div>
               <div className="card">
@@ -56,7 +67,12 @@ const Services = () => {
                   </div>
                 </div>
                 <div className="img_card">
-                  <img src="../../../images/mobile_2.jpg" alt="" />
+                  <Image
+                    src={"/images/mobile_2.jpg"}
+                    alt="image"
+                    width={500}
+                    height={500}
+                  />
                 </div>
               </div>
             </div>

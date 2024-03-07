@@ -1,6 +1,7 @@
 import React from "react";
 import "./Education.css";
 import { Typography } from "../ui/Typography";
+import Image from "next/image";
 
 const Education = () => {
   return (
@@ -31,7 +32,12 @@ const Education = () => {
             {/* left */}
             <div className="left">
               <div className="image">
-                <img src="../../../images/diplome.jpg" alt="image" />
+                <Image
+                  src={"/images/diplome.jpg"}
+                  alt="image"
+                  width={500}
+                  height={500}
+                />
               </div>
               <div className="date">
                 <div className="point">

@@ -1,6 +1,7 @@
 import React from "react";
 import "./Works.css";
 import { Typography } from "../ui/Typography";
+import Image from "next/image";
 
 const Works = () => {
   return (
@@ -15,36 +16,85 @@ const Works = () => {
           {/* images */}
           <div className="images">
             <div className="left">
-              <img src="../../../images/mobile_2.jpg" alt="image" />
-              <img src="../../../images/image-shop.jpg" alt="image" />
-              <img src="../../../images/image-illus.jpg" alt="image" />
+              <Image
+                src={"/images/mobile_2.jpg"}
+                alt="image"
+                width={500}
+                height={500}
+              />
+
+              <Image
+                src={"/images/image-shop.jpg"}
+                alt="image"
+                width={500}
+                height={500}
+              />
+
+              <Image
+                src={"/images/image-illus.jpg"}
+                alt="image"
+                width={500}
+                height={500}
+              />
             </div>
             {/* right */}
             <div className="right">
               {/* top-img */}
               <div className="top-img">
-                <img src="../../../images/frontend.jpg" alt="image" />
+                <Image
+                  src={"/images/frontend.jpg"}
+                  alt="image"
+                  width={500}
+                  height={500}
+                />
               </div>
               {/* top-img end*/}
               {/* center-img */}
               <div className="center-img">
                 {/* img-left */}
                 <div className="img-left">
-                  <img src="../../../images/image-figma.jpg" alt="image" />
-                  <img src="../../../images/backend.png" alt="image" />
+                  <Image
+                    src={"/images/image-figma.jpg"}
+                    alt="image"
+                    width={500}
+                    height={500}
+                  />
+
+                  <Image
+                    src={"/images/backend.png"}
+                    alt="image"
+                    width={500}
+                    height={500}
+                  />
                 </div>
                 {/* img-left end*/}
                 {/* img-right */}
                 <div className="img-right">
-                  <img src="../../../images/backend.png" alt="image" />
-                  <img src="../../../images/image-figma.jpg" alt="image" />
+                  <Image
+                    src={"/images/backend.png"}
+                    alt="image"
+                    width={500}
+                    height={500}
+                  />
+
+                  <Image
+                    src={"/images/image-figma.jpg"}
+                    alt="image"
+                    width={500}
+                    height={500}
+                  />
                 </div>
                 {/* img-right */}
               </div>
               {/* center-img end*/}
               {/* botton-img */}
               <div className="botton-img">
-                <img src="../../../images/frontend.jpg" alt="image" />
+                <Image
+                  src={"/images/frontend.jpg"}
+                  alt="image"
+                  width={500}
+                  height={500}
+                />
               </div>
               {/* botton-img end*/}
             </div>

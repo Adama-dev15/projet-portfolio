@@ -1,6 +1,7 @@
 import React from "react";
 import { Typography } from "../ui/Typography";
 import "./Skill.css";
+import Image from "next/image";
 
 const Skill = () => {
   return (
@@ -27,7 +28,12 @@ const Skill = () => {
               <div className="left">
                 <div className="logo-title">
                   <div className="logo">
-                    <img src="../../../images/logo-figma.jpg" alt="logo" />
+                    <Image
+                      src={"/images/logo-figma.jpg"}
+                      alt="logo"
+                      width={500}
+                      height={500}
+                    />
                   </div>
                   <div className="title">Figma</div>
                 </div>
@@ -39,7 +45,12 @@ const Skill = () => {
               </div>
               <div className="right">
                 <div className="image">
-                  <img src="../../../images/image-figma.jpg" alt="image" />
+                  <Image
+                    src={"/images/image-figma.jpg"}
+                    alt="image"
+                    width={500}
+                    height={500}
+                  />
                 </div>
               </div>
             </div>
@@ -51,7 +62,12 @@ const Skill = () => {
                   <div className="logo-title">
                     {" "}
                     <div className="logo">
-                      <img src="../../../images/image-shop.jpg" alt="logo" />
+                      <Image
+                        src={"/images/image-shop.jpg"}
+                        alt="logo"
+                        width={500}
+                        height={500}
+                      />
                     </div>
                     <div className="title">PhotoShop</div>
                   </div>
@@ -64,7 +80,12 @@ const Skill = () => {
                 </div>
                 <div className="right">
                   <div className="image">
-                    <img src="../../../images/image-shop.jpg" alt="image" />
+                    <Image
+                      src={"/images/image-shop.jpg"}
+                      alt="image"
+                      width={500}
+                      height={500}
+                    />
                   </div>
                 </div>
               </div>
@@ -74,7 +95,12 @@ const Skill = () => {
                   <div className="logo-title">
                     {" "}
                     <div className="logo">
-                      <img src="../../../images/logo-illus.jpg" alt="logo" />
+                      <Image
+                        src={"/images/logo-illus.jpg"}
+                        alt="logo"
+                        width={500}
+                        height={500}
+                      />
                     </div>
                     <div className="title">Illustrator</div>
                   </div>
@@ -87,7 +113,12 @@ const Skill = () => {
                 </div>
                 <div className="right">
                   <div className="image">
-                    <img src="../../../images/image-illus.jpg" alt="image" />
+                    <Image
+                      src={"/images/image-illus.jpg"}
+                      alt="image"
+                      width={500}
+                      height={500}
+                    />
                   </div>
                 </div>
               </div>

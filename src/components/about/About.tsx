@@ -2,6 +2,7 @@ import React from "react";
 import "./About.css";
 import { Typography } from "../ui/Typography";
 import { ArrowRight, Facebook, Instagram, Link, Linkedin } from "lucide-react";
+import Image from "next/image";
 
 const About = () => {
   return (
@@ -11,7 +12,8 @@ const About = () => {
           <div className="left">
             <div className="left-content">
               <Typography variant="h1" className="nameprofil">
-                I'm <span className="name">Jon Dawson</span>, Product Disegner
+                I&apos; m <span className="name">Jon Dawson</span>, Product
+                Disegner
               </Typography>
               <Typography variant="base" className="text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
@@ -37,7 +39,12 @@ const About = () => {
                   </div>
                 </div>
                 <div className="img_profil">
-                  <img src="../../../images/profil.png" alt="profil" />
+                  <Image
+                    src={"/images/profil.png"}
+                    alt="profil"
+                    width={500}
+                    height={500}
+                  />
                 </div>
               </div>
 

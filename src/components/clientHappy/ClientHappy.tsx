@@ -3,6 +3,7 @@ import "./ClientHappy.css";
 import { Typography } from "../ui/Typography";
 import { Star, StarHalfIcon, StarIcon, StarOffIcon } from "lucide-react";
 import { StarFilledIcon } from "@radix-ui/react-icons";
+import Image from "next/image";
 
 const ClientHappy = () => {
   return (
@@ -28,7 +29,12 @@ const ClientHappy = () => {
             <div className="card-testimonial">
               <div className="top">
                 <div className="image">
-                  <img src="../../../images/temoi_2.jpg" alt="image" />
+                  <Image
+                    src={"/images/temoi_2.jpg"}
+                    alt="image"
+                    width={500}
+                    height={500}
+                  />
                 </div>
                 <div className="name">
                   <div className="user-name">
@@ -63,7 +69,12 @@ const ClientHappy = () => {
             <div className="card-testimonial">
               <div className="top">
                 <div className="image">
-                  <img src="../../../images/temoi.jpg" alt="image" />
+                  <Image
+                    src={"/images/temoi.jpg"}
+                    alt="image"
+                    width={500}
+                    height={500}
+                  />
                 </div>
                 <div className="name">
                   <div className="user-name">
@@ -96,7 +107,12 @@ const ClientHappy = () => {
             <div className="card-testimonial">
               <div className="top">
                 <div className="image">
-                  <img src="../../../images/temoi_3.jpg" alt="image" />
+                  <Image
+                    src={"/images/temoi_3.jpg"}
+                    alt="image"
+                    width={500}
+                    height={500}
+                  />
                 </div>
                 <div className="name">
                   <div className="user-name">
