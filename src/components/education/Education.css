@@ -1,0 +1,762 @@
+.education {
+  margin-top: 60px;
+}
+
+.education .container .education-content .name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.education .container .education-content .cards-education {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+}
+
+.education .container .education-content .cards-education .point {
+  height: 40px;
+  width: 40px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: blue;
+}
+
+.education .container .education-content .cards-education .point span {
+  height: 15px;
+  width: 15px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: white;
+}
+
+.education .container .education-content .cards-education .date {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+
+.education .container .education-content .cards-education .text {
+  text-align: justify;
+}
+
+.education .container .education-content .cards-education .left {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  background-color: rgba(20, 20, 204, 0.171);
+  border-radius: 10px;
+}
+
+.education .container .education-content .cards-education .left .image {
+  width: 100%;
+  height: 150px;
+}
+
+.education .container .education-content .cards-education .left .image img {
+  width: 100%;
+  height: 150px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.education .container .education-content .cards-education .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+}
+
+.education .container .education-content .cards-education .right .right-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+  background-color: rgba(20, 20, 204, 0.171);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.education .container .education-content .cards-education .right .right-bottom {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.education .container .education-content .cards-education .right .right-bottom .right-bottomleft,
+.education .container .education-content .cards-education .right .right-bottom .right-bottomright {
+  background-color: rgba(20, 20, 204, 0.171);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .education {
+    margin-top: 60px;
+  }
+  .education .container .education-content .name {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .education .container .education-content .cards-education {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  .education .container .education-content .cards-education .point {
+    height: 40px;
+    width: 40px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: blue;
+  }
+  .education .container .education-content .cards-education .point span {
+    height: 15px;
+    width: 15px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: white;
+  }
+  .education .container .education-content .cards-education .date {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 20px;
+  }
+  .education .container .education-content .cards-education .text {
+    text-align: justify;
+  }
+  .education .container .education-content .cards-education .left {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    background-color: rgba(20, 20, 204, 0.171);
+    border-radius: 10px;
+  }
+  .education .container .education-content .cards-education .left .image {
+    width: 100%;
+    height: 150px;
+  }
+  .education .container .education-content .cards-education .left .image img {
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .education .container .education-content .cards-education .right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 10px;
+  }
+  .education .container .education-content .cards-education .right .right-top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 10px;
+    background-color: rgba(20, 20, 204, 0.171);
+    padding: 10px;
+    border-radius: 10px;
+    height: 100%;
+  }
+  .education .container .education-content .cards-education .right .right-bottom {
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  .education .container .education-content .cards-education .right .right-bottom .right-bottomleft,
+  .education .container .education-content .cards-education .right .right-bottom .right-bottomright {
+    background-color: rgba(20, 20, 204, 0.171);
+    padding: 10px;
+    border-radius: 10px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .education {
+    margin-top: 60px;
+  }
+  .education .container .education-content .name {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .education .container .education-content .cards-education {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  .education .container .education-content .cards-education .point {
+    height: 40px;
+    width: 40px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: blue;
+  }
+  .education .container .education-content .cards-education .point span {
+    height: 15px;
+    width: 15px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: white;
+  }
+  .education .container .education-content .cards-education .date {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 20px;
+  }
+  .education .container .education-content .cards-education .text {
+    text-align: justify;
+  }
+  .education .container .education-content .cards-education .left {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    background-color: rgba(20, 20, 204, 0.171);
+    border-radius: 10px;
+  }
+  .education .container .education-content .cards-education .left .image {
+    width: 100%;
+    height: 100%;
+  }
+  .education .container .education-content .cards-education .left .image img {
+    width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .education .container .education-content .cards-education .right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 10px;
+  }
+  .education .container .education-content .cards-education .right .right-top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 10px;
+    background-color: rgba(20, 20, 204, 0.171);
+    padding: 10px;
+    border-radius: 10px;
+    height: 100%;
+  }
+  .education .container .education-content .cards-education .right .right-bottom {
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  .education .container .education-content .cards-education .right .right-bottom .right-bottomleft,
+  .education .container .education-content .cards-education .right .right-bottom .right-bottomright {
+    background-color: rgba(20, 20, 204, 0.171);
+    padding: 10px;
+    border-radius: 10px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .education {
+    margin-top: 60px;
+  }
+  .education .container .education-content .name {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .education .container .education-content .cards-education {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  .education .container .education-content .cards-education .point {
+    height: 40px;
+    width: 40px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: blue;
+  }
+  .education .container .education-content .cards-education .point span {
+    height: 15px;
+    width: 15px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: white;
+  }
+  .education .container .education-content .cards-education .date {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 20px;
+  }
+  .education .container .education-content .cards-education .text {
+    text-align: justify;
+  }
+  .education .container .education-content .cards-education .left {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    background-color: rgba(20, 20, 204, 0.171);
+    border-radius: 10px;
+  }
+  .education .container .education-content .cards-education .left .image {
+    width: 100%;
+    height: 100%;
+  }
+  .education .container .education-content .cards-education .left .image img {
+    width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .education .container .education-content .cards-education .right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 10px;
+  }
+  .education .container .education-content .cards-education .right .right-top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 10px;
+    background-color: rgba(20, 20, 204, 0.171);
+    padding: 10px;
+    border-radius: 10px;
+    height: 100%;
+  }
+  .education .container .education-content .cards-education .right .right-bottom {
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  .education .container .education-content .cards-education .right .right-bottom .right-bottomleft,
+  .education .container .education-content .cards-education .right .right-bottom .right-bottomright {
+    background-color: rgba(20, 20, 204, 0.171);
+    padding: 10px;
+    border-radius: 10px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1919px) {
+  .education {
+    margin-top: 60px;
+  }
+  .education .container .education-content .name {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .education .container .education-content .text-education {
+    width: 500px;
+  }
+  .education .container .education-content .cards-education {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+  .education .container .education-content .cards-education .point {
+    height: 40px;
+    width: 40px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: blue;
+  }
+  .education .container .education-content .cards-education .point span {
+    height: 15px;
+    width: 15px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: white;
+  }
+  .education .container .education-content .cards-education .date {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 20px;
+  }
+  .education .container .education-content .cards-education .text {
+    text-align: justify;
+  }
+  .education .container .education-content .cards-education .left {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    background-color: rgba(20, 20, 204, 0.171);
+    border-radius: 10px;
+  }
+  .education .container .education-content .cards-education .left .image {
+    width: 100%;
+    height: 100%;
+  }
+  .education .container .education-content .cards-education .left .image img {
+    width: 100%;
+    max-height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .education .container .education-content .cards-education .right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 30px;
+  }
+  .education .container .education-content .cards-education .right .right-top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 10px;
+    background-color: rgba(20, 20, 204, 0.171);
+    padding: 10px;
+    border-radius: 10px;
+    height: 100%;
+  }
+  .education .container .education-content .cards-education .right .right-bottom {
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+  .education .container .education-content .cards-education .right .right-bottom .right-bottomleft,
+  .education .container .education-content .cards-education .right .right-bottom .right-bottomright {
+    background-color: rgba(20, 20, 204, 0.171);
+    padding: 10px;
+    border-radius: 10px;
+  }
+}
+/*# sourceMappingURL=Education.css.map */

@@ -1,0 +1,70 @@
+.header {
+  padding: 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+  z-index: 90000;
+  position: fixed;
+  width: 100%;
+}
+
+.header .container_header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  border: 1px solid transparent;
+  padding: 10px 20px;
+  background-color: blue;
+  border-radius: 50px;
+}
+
+.header .container_header .floatToggle {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .header .container_header .floatToggle {
+    display: block;
+  }
+}
+
+.header .container_header .nav-link.active {
+  border: 1px solid transparent;
+  border-radius: 20px;
+  background-color: white;
+  color: black;
+  padding: 0px 8px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.header .container_header .name-user {
+  border: 1px solid transparent;
+  padding: 8px;
+  background-color: white;
+  color: black;
+  font-weight: bolder;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=Header.css.map */

@@ -1,0 +1,53 @@
+.hidden_nav {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .hidden_nav {
+    display: block;
+  }
+}
+
+.toggleMenu {
+  position: relative;
+  z-index: 45667;
+
+  .atache {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border: 1px solid transparent;
+    background-color: blue;
+    top: 17px;
+    transform: rotate(50deg);
+  }
+  .navToggle {
+    position: absolute;
+    width: 200px;
+    background-color: blue;
+    top: 20px;
+    right: 0;
+    border-radius: 20px;
+
+    ul {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      transition: all 0.5s;
+      color: white;
+
+      li {
+        margin: 10px;
+
+        .nav-link.active {
+          border: 1px solid transparent;
+          border-radius: 20px;
+          color: black;
+          padding: 5px 30px;
+          background-color: white;
+        }
+      }
+    }
+  }
+}

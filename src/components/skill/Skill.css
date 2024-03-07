@@ -1,0 +1,913 @@
+.skill {
+  padding: 40px 0;
+}
+
+.skill .container .skill-content .skill-know {
+  display: none;
+}
+
+.skill .container .skill-content .left {
+  width: 100%;
+  text-align: center;
+}
+
+.skill .container .skill-content .left .text {
+  text-align: justify;
+}
+
+.skill .container .skill-content .right {
+  padding: 40px 0 0 0;
+  color: white;
+}
+
+.skill .container .skill-content .right .seame-element {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 10px;
+  background-color: blue;
+  border-radius: 15px;
+}
+
+.skill .container .skill-content .right .seame-element .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+.skill .container .skill-content .right .seame-element .left .logo-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+  margin-bottom: 8px;
+}
+
+.skill .container .skill-content .right .seame-element .left .logo-title .logo {
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.skill .container .skill-content .right .seame-element .left .logo-title .logo img {
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.skill .container .skill-content .right .seame-element .left .text {
+  text-align: left;
+}
+
+.skill .container .skill-content .right .seame-element .right {
+  padding: 0;
+  width: 100%;
+  height: 90px;
+}
+
+.skill .container .skill-content .right .seame-element .right img {
+  width: 100%;
+  height: 90px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.skill .container .skill-content .right .two-elements {
+  padding: 10px 0;
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.skill .container .skill-content .right .two-elements .photoShop,
+.skill .container .skill-content .right .two-elements .illustrator {
+  width: 100%;
+}
+
+.skill .container .skill-content .right .two-elements .ia-shop {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 40% 1fr;
+      grid-template-rows: 40% 1fr;
+  gap: 20px;
+  padding: 10px;
+  background-color: blue;
+  border-radius: 15px;
+  height: 220px;
+}
+
+.skill .container .skill-content .right .two-elements .ia-shop .left .text {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.skill .container .skill-content .right .two-elements .ia-shop .left .logo-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+  margin-bottom: 15px;
+}
+
+.skill .container .skill-content .right .two-elements .ia-shop .left .logo-title .logo {
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: -10px;
+}
+
+.skill .container .skill-content .right .two-elements .ia-shop .left .logo-title .logo img {
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.skill .container .skill-content .right .two-elements .ia-shop .right {
+  width: 100%;
+  height: 90px;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 0;
+}
+
+.skill .container .skill-content .right .two-elements .ia-shop .right img {
+  width: 100%;
+  height: 90px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .skill .container .skill-content {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+  .skill .container .skill-content .left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .skill .container .skill-content .skill-know {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    color: white;
+  }
+  .skill .container .skill-content .skill-know .seame-element-forma {
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 10px;
+    background-color: blue;
+    border-radius: 15px;
+  }
+  .skill .container .skill-content .skill-know .seame-element-forma .left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .skill .container .skill-content .skill-know .seame-element-forma .left .logo-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 20px;
+    margin-bottom: 8px;
+  }
+  .skill .container .skill-content .skill-know .seame-element-forma .left .logo-title .logo {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .skill .container .skill-content .skill-know .seame-element-forma .left .logo-title .logo img {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .skill .container .skill-content .skill-know .seame-element-forma .left .text {
+    text-align: left;
+  }
+  .skill .container .skill-content .skill-know .seame-element-forma .right {
+    padding: 0;
+    width: 100%;
+    height: 90px;
+  }
+  .skill .container .skill-content .skill-know .seame-element-forma .right img {
+    width: 100%;
+    height: 90px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .skill .container .skill-content .skill-know .ia-shop-forma {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 40% 1fr;
+        grid-template-rows: 40% 1fr;
+    gap: 20px;
+    padding: 10px;
+    background-color: blue;
+    border-radius: 15px;
+    height: 220px;
+  }
+  .skill .container .skill-content .skill-know .ia-shop-forma .left .text {
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  .skill .container .skill-content .skill-know .ia-shop-forma .left .logo-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 20px;
+    margin-bottom: 15px;
+  }
+  .skill .container .skill-content .skill-know .ia-shop-forma .left .logo-title .logo {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: -10px;
+  }
+  .skill .container .skill-content .skill-know .ia-shop-forma .left .logo-title .logo img {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .skill .container .skill-content .skill-know .ia-shop-forma .right {
+    width: 100%;
+    height: 90px;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 0;
+  }
+  .skill .container .skill-content .skill-know .ia-shop-forma .right img {
+    width: 100%;
+    height: 90px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .skill .container .skill-content .left-skill {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 10px;
+  }
+  .skill .container .skill-content .right-skill {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 10px;
+  }
+  .skill .container .skill-content .hidden-skill {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .skill .container .skill-content {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+  .skill .container .skill-content .left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .skill .container .skill-content .skill-know {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    color: white;
+  }
+  .skill .container .skill-content .skill-know .seame-element-forma {
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 10px;
+    background-color: blue;
+    border-radius: 15px;
+  }
+  .skill .container .skill-content .skill-know .seame-element-forma .left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .skill .container .skill-content .skill-know .seame-element-forma .left .logo-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 20px;
+    margin-bottom: 8px;
+  }
+  .skill .container .skill-content .skill-know .seame-element-forma .left .logo-title .logo {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .skill .container .skill-content .skill-know .seame-element-forma .left .logo-title .logo img {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .skill .container .skill-content .skill-know .seame-element-forma .left .text {
+    text-align: left;
+  }
+  .skill .container .skill-content .skill-know .seame-element-forma .right {
+    padding: 0;
+    width: 100%;
+    height: 90px;
+  }
+  .skill .container .skill-content .skill-know .seame-element-forma .right img {
+    width: 100%;
+    height: 90px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .skill .container .skill-content .skill-know .ia-shop-forma {
+    width: 80%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 40% 1fr;
+        grid-template-rows: 40% 1fr;
+    gap: 20px;
+    padding: 10px;
+    background-color: blue;
+    border-radius: 15px;
+    height: 220px;
+  }
+  .skill .container .skill-content .skill-know .ia-shop-forma .left .text {
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  .skill .container .skill-content .skill-know .ia-shop-forma .left .logo-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 20px;
+    margin-bottom: 15px;
+  }
+  .skill .container .skill-content .skill-know .ia-shop-forma .left .logo-title .logo {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: -10px;
+  }
+  .skill .container .skill-content .skill-know .ia-shop-forma .left .logo-title .logo img {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .skill .container .skill-content .skill-know .ia-shop-forma .right {
+    width: 100%;
+    height: 90px;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 0;
+  }
+  .skill .container .skill-content .skill-know .ia-shop-forma .right img {
+    width: 100%;
+    height: 90px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .skill .container .skill-content .left-skill {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: end;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 10px;
+    margin-top: 25px;
+  }
+  .skill .container .skill-content .right-skill {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 10px;
+    margin-bottom: 25px;
+  }
+  .skill .container .skill-content .hidden-skill {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1919px) {
+  .skill .container .skill-content {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 30% 70%;
+        grid-template-columns: 30% 70%;
+    gap: 30px;
+  }
+  .skill .container .skill-content .left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .skill .container .skill-content .skill-know {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    color: white;
+  }
+  .skill .container .skill-content .skill-know .seame-element-forma {
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 10px;
+    background-color: blue;
+    border-radius: 15px;
+  }
+  .skill .container .skill-content .skill-know .seame-element-forma .left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .skill .container .skill-content .skill-know .seame-element-forma .left .logo-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    margin-bottom: 8px;
+  }
+  .skill .container .skill-content .skill-know .seame-element-forma .left .logo-title .logo {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .skill .container .skill-content .skill-know .seame-element-forma .left .logo-title .logo img {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .skill .container .skill-content .skill-know .seame-element-forma .left .text {
+    text-align: left;
+  }
+  .skill .container .skill-content .skill-know .seame-element-forma .right {
+    padding: 0;
+    width: 100%;
+    height: 90px;
+  }
+  .skill .container .skill-content .skill-know .seame-element-forma .right img {
+    width: 100%;
+    height: 90px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .skill .container .skill-content .skill-know .ia-shop-forma {
+    width: 60%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 40% 1fr;
+        grid-template-rows: 40% 1fr;
+    gap: 10px;
+    padding: 10px;
+    background-color: blue;
+    border-radius: 15px;
+    height: 240px;
+  }
+  .skill .container .skill-content .skill-know .ia-shop-forma .left .text {
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  .skill .container .skill-content .skill-know .ia-shop-forma .left .logo-title {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 20px;
+    margin-bottom: 15px;
+  }
+  .skill .container .skill-content .skill-know .ia-shop-forma .left .logo-title .logo {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: -10px;
+  }
+  .skill .container .skill-content .skill-know .ia-shop-forma .left .logo-title .logo img {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .skill .container .skill-content .skill-know .ia-shop-forma .right {
+    width: 100%;
+    height: 120px;
+    border-radius: 10px;
+    padding: 0;
+  }
+  .skill .container .skill-content .skill-know .ia-shop-forma .right img {
+    width: 100%;
+    height: 120px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .skill .container .skill-content .left-skill {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: end;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 10px;
+    margin-top: 25px;
+  }
+  .skill .container .skill-content .right-skill {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 10px;
+    margin-bottom: 25px;
+  }
+  .skill .container .skill-content .hidden-skill {
+    display: none;
+  }
+}
+
+@media (min-width: 1920px) {
+  .skill .container .skill-content {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 30% 70%;
+        grid-template-columns: 30% 70%;
+    gap: 30px;
+  }
+  .skill .container .skill-content .left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .skill .container .skill-content .skill-know {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    color: white;
+  }
+  .skill .container .skill-content .skill-know .seame-element-forma {
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 10px;
+    background-color: blue;
+    border-radius: 15px;
+  }
+  .skill .container .skill-content .skill-know .seame-element-forma .left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .skill .container .skill-content .skill-know .seame-element-forma .left .logo-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    margin-bottom: 8px;
+  }
+  .skill .container .skill-content .skill-know .seame-element-forma .left .logo-title .logo {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .skill .container .skill-content .skill-know .seame-element-forma .left .logo-title .logo img {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .skill .container .skill-content .skill-know .seame-element-forma .left .text {
+    text-align: left;
+  }
+  .skill .container .skill-content .skill-know .seame-element-forma .right {
+    padding: 0;
+    width: 100%;
+    height: 90px;
+  }
+  .skill .container .skill-content .skill-know .seame-element-forma .right img {
+    width: 100%;
+    height: 90px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .skill .container .skill-content .skill-know .ia-shop-forma {
+    width: 60%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 40% 1fr;
+        grid-template-rows: 40% 1fr;
+    gap: 10px;
+    padding: 10px;
+    background-color: blue;
+    border-radius: 15px;
+    height: 240px;
+  }
+  .skill .container .skill-content .skill-know .ia-shop-forma .left .text {
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  .skill .container .skill-content .skill-know .ia-shop-forma .left .logo-title {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 20px;
+    margin-bottom: 15px;
+  }
+  .skill .container .skill-content .skill-know .ia-shop-forma .left .logo-title .logo {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: -10px;
+  }
+  .skill .container .skill-content .skill-know .ia-shop-forma .left .logo-title .logo img {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .skill .container .skill-content .skill-know .ia-shop-forma .right {
+    width: 100%;
+    height: 120px;
+    border-radius: 10px;
+    padding: 0;
+  }
+  .skill .container .skill-content .skill-know .ia-shop-forma .right img {
+    width: 100%;
+    height: 120px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .skill .container .skill-content .left-skill {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: end;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 10px;
+    margin-top: 25px;
+  }
+  .skill .container .skill-content .right-skill {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 10px;
+    margin-bottom: 25px;
+  }
+  .skill .container .skill-content .hidden-skill {
+    display: none;
+  }
+}
+/*# sourceMappingURL=Skill.css.map */

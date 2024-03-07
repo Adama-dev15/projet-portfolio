@@ -1,0 +1,250 @@
+.about-section {
+  padding-top: 100px;
+  .container {
+    .about-content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .left {
+        width: 50%;
+
+        .left-content {
+          padding: 0 100px 0 0;
+          .nameprofil {
+            margin-bottom: 20px;
+            .name {
+              color: blue;
+            }
+          }
+          .text {
+            margin-bottom: 20px;
+          }
+          .linkAbout {
+            display: flex;
+            align-items: center;
+            justify-content: start;
+
+            .link {
+              border: 1px solid transparent;
+              border-radius: 10px;
+              padding: 5px 20px;
+              background-color: black;
+              color: white;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              margin-right: 20px;
+              transition: 0.5s;
+
+              &:hover {
+                background-color: rgb(61, 61, 61);
+              }
+            }
+            .vc {
+              border: 1px solid transparent;
+              border-radius: 10px;
+              padding: 5px 20px;
+              background-color: blue;
+              color: white;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              transition: 0.5s;
+
+              &:hover {
+                background-color: rgb(2, 2, 142);
+              }
+            }
+          }
+        }
+      }
+      .right {
+        width: 50%;
+        .right-content {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          .icon_fleche {
+            border: 1px solid transparent;
+            border-radius: 50px;
+            width: 110px;
+            height: 110px;
+            background-color: white;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .fleche {
+              border: 1px solid transparent;
+              color: white;
+              border-radius: 50px;
+              width: 70px;
+              height: 70px;
+              background-color: blue;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              transform: rotate(-40deg);
+            }
+          }
+          .card-profil {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: 430px;
+            width: 340px;
+            background-color: blue;
+            border-radius: 30px 30px 90px 30px;
+
+            .img_profil img {
+              display: flex;
+              align-items: start;
+              justify-content: start;
+              width: 340px;
+              height: 430px;
+              border-radius: 30px 30px 90px 30px;
+              overflow: hidden;
+              object-fit: cover;
+            }
+          }
+
+          .follow {
+            @media (max-width: 768px) {
+              display: none;
+            }
+            .tarit {
+              border-right: 1px solid blue;
+              height: 100px;
+              width: 1px;
+            }
+            .descr {
+              margin-bottom: 30px;
+              /* Rotation de 90 degrés dans le sens anti-horaire */
+              transform-origin: left bottom; /* Définit le point d'origine de la rotation */
+              writing-mode: vertical-lr; /* Mode d'écriture vertical de gauche à droite */
+            }
+            .iconFollow {
+              margin-top: 30px;
+              display: flex;
+              flex-direction: column;
+              gap: 20px;
+
+              .icon {
+                border: 1px solid transparent;
+                border-radius: 3px;
+                background-color: blue;
+                height: 15px;
+                width: 15px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// Mobile
+@media (max-width: 480px) {
+  .about-section {
+    .container {
+      .about-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+
+        .left {
+          width: 100%;
+          margin-bottom: 20px;
+          .left-content {
+            padding: 0;
+            text-align: center;
+            .linkAbout {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            }
+          }
+        }
+        .right {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+// Extra small devices
+@media (min-width: 481px) and (max-width: 767px) {
+  .about-section {
+    .container {
+      .about-content {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 50px;
+
+        .left {
+          width: 50%;
+          margin-bottom: 20px;
+          .left-content {
+            padding: 0;
+            text-align: center;
+            .linkAbout {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            }
+          }
+        }
+        .right {
+          width: 50%;
+        }
+      }
+    }
+  }
+}
+
+//small tablets
+@media (min-width: 768px) and (max-width: 991px) {
+  .about-section {
+    .container {
+      .about-content {
+        .left {
+          .left-content {
+            padding: 0;
+          }
+        }
+        .right {
+          width: 50%;
+        }
+      }
+    }
+  }
+}
+
+//large tablets /laptop
+@media (min-width: 992px) and (max-width: 1199px) {
+  .about-section {
+    .container {
+      .about-content {
+        .left {
+          .left-content {
+            padding: 0;
+          }
+        }
+      }
+    }
+  }
+}

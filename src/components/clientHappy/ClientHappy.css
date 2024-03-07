@@ -1,0 +1,132 @@
+.clientHappy {
+  background-color: blue;
+  margin-top: 60px;
+  color: white;
+}
+
+.clientHappy .container .clientHappy-content .top {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.clientHappy .container .clientHappy-content .testimonial {
+  width: 100%;
+  padding: 0 0 40px 0;
+}
+
+.clientHappy .container .clientHappy-content .testimonial .card-testimonial {
+  background-color: rgba(255, 255, 255, 0.325);
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 15px;
+  width: 100%;
+}
+
+.clientHappy .container .clientHappy-content .testimonial .card-testimonial .top {
+  width: 100%;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+
+.clientHappy .container .clientHappy-content .testimonial .card-testimonial .top .name {
+  text-align: left;
+}
+
+.clientHappy .container .clientHappy-content .testimonial .card-testimonial .top .image {
+  width: 50px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.clientHappy .container .clientHappy-content .testimonial .card-testimonial .top .image img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.clientHappy .container .clientHappy-content .testimonial .card-testimonial .center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+.clientHappy .container .clientHappy-content .testimonial .card-testimonial .center .etoils {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5px;
+}
+
+.clientHappy .container .clientHappy-content .testimonial .card-testimonial .text {
+  margin-top: 10px;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .clientHappy .container .clientHappy-content .testimonial {
+    width: 100%;
+    padding: 0 0 40px 0;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .clientHappy .container .clientHappy-content .testimonial {
+    width: 100%;
+    padding: 0 0 40px 0;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .clientHappy .container .clientHappy-content .testimonial {
+    width: 100%;
+    padding: 0 0 40px 0;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1919px) {
+  .clientHappy .container .clientHappy-content .testimonial {
+    width: 100%;
+    padding: 0 0 40px 0;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+}
+/*# sourceMappingURL=ClientHappy.css.map */

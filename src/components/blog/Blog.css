@@ -1,0 +1,325 @@
+.Blog {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.Blog .container .blog-content .blog-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+}
+
+.Blog .container .blog-content .blog-pratic {
+  margin-top: 30px;
+}
+
+.Blog .container .blog-content .blog-pratic .blog_cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 15px;
+}
+
+.Blog .container .blog-content .blog-pratic .blog_cards .card {
+  width: 300px;
+  height: 330px;
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 55% 45%;
+      grid-template-rows: 55% 45%;
+  background-color: blue;
+  color: white;
+  border-radius: 30px 90px 30px 30px;
+}
+
+.Blog .container .blog-content .blog-pratic .blog_cards .card .img_card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  width: 100%;
+  height: 100%;
+  border-radius: 30px 90px 0 0;
+}
+
+.Blog .container .blog-content .blog-pratic .blog_cards .card .img_card img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  width: 100%;
+  height: 100%;
+  border-radius: 30px 90px 0 0;
+  overflow: hidden;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.Blog .container .blog-content .blog-pratic .blog_cards .card .info {
+  padding: 10px;
+}
+
+.Blog .container .blog-content .blog-pratic .blog_cards .card .info .name {
+  font-weight: bolder;
+  font-size: 1.2rem;
+  margin-bottom: 4px;
+  text-align: center;
+}
+
+.Blog .container .blog-content .blog-pratic .blog_cards .card .info .text {
+  text-align: justify;
+}
+
+.Blog .container .blog-content .blog-pratic .blog_cards .card .info .text-center {
+  margin-top: 4px;
+}
+
+.Blog .container .blog-content .blog-pratic .blog_cards .card .icon_fleche {
+  border: 1px solid transparent;
+  border-radius: 50px;
+  width: 110px;
+  height: 110px;
+  background-color: white;
+  position: absolute;
+  right: 5px;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Blog .container .blog-content .blog-pratic .blog_cards .card .icon_fleche .fleche {
+  border: 1px solid transparent;
+  color: white;
+  border-radius: 50px;
+  width: 70px;
+  height: 70px;
+  background-color: blue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transform: rotate(-40deg);
+          transform: rotate(-40deg);
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .Blog {
+    margin-top: 40px;
+  }
+  .Blog .container .blog-content .blog-top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 20px;
+  }
+  .Blog .container .blog-content .blog-pratic {
+    margin-top: 30px;
+  }
+  .Blog .container .blog-content .blog-pratic .blog_cards {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+  }
+  .Blog .container .blog-content .blog-pratic .blog_cards .card {
+    width: 230px;
+    height: 330px;
+    position: relative;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 55% 45%;
+        grid-template-rows: 55% 45%;
+    background-color: blue;
+    color: white;
+    border-radius: 30px 90px 30px 30px;
+  }
+  .Blog .container .blog-content .blog-pratic .blog_cards .card .info .text {
+    text-align: justify;
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .Blog {
+    margin-top: 40px;
+  }
+  .Blog .container .blog-content .blog-top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 20px;
+  }
+  .Blog .container .blog-content .blog-pratic {
+    margin-top: 30px;
+  }
+  .Blog .container .blog-content .blog-pratic .blog_cards {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+  }
+  .Blog .container .blog-content .blog-pratic .blog_cards .card {
+    width: 240px;
+    height: 330px;
+  }
+  .Blog .container .blog-content .blog-pratic .blog_cards .card .info .text {
+    text-align: justify;
+    font-size: 0.85rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .Blog {
+    margin-top: 40px;
+  }
+  .Blog .container .blog-content .blog-top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 20px;
+  }
+  .Blog .container .blog-content .blog-top .text-justify {
+    width: 500px;
+  }
+  .Blog .container .blog-content .blog-pratic {
+    margin-top: 30px;
+  }
+  .Blog .container .blog-content .blog-pratic .blog_cards {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+  }
+  .Blog .container .blog-content .blog-pratic .blog_cards .card {
+    width: 280px;
+    height: 330px;
+  }
+  .Blog .container .blog-content .blog-pratic .blog_cards .card .info .text {
+    text-align: justify;
+    font-size: 0.96rem;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1919px) {
+  .Blog {
+    margin-top: 40px;
+  }
+  .Blog .container .blog-content .blog-top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 20px;
+  }
+  .Blog .container .blog-content .blog-top .text-justify {
+    width: 500px;
+  }
+  .Blog .container .blog-content .blog-pratic {
+    margin-top: 30px;
+  }
+  .Blog .container .blog-content .blog-pratic .blog_cards {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+  }
+  .Blog .container .blog-content .blog-pratic .blog_cards .card {
+    width: 100%;
+    height: 100%;
+  }
+  .Blog .container .blog-content .blog-pratic .blog_cards .card .info .text {
+    text-align: justify;
+    font-size: 1.1rem;
+  }
+  .Blog .container .blog-content .blog-pratic .blog_cards .card .info .text-center {
+    top: 20px;
+  }
+}
+/*# sourceMappingURL=Blog.css.map */

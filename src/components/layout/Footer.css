@@ -1,0 +1,502 @@
+footer {
+  background-color: blue;
+  color: white;
+}
+
+footer .container .footer-content {
+  padding: 40px 0;
+}
+
+footer .container .footer-content .footer-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .container .footer-content .footer-top .contact a {
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  padding: 5px 20px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+footer .container .footer-content .footer-top .contact a:hover {
+  background-color: rgba(0, 0, 0, 0.397);
+  color: white;
+}
+
+footer .container .footer-content .footer-center .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+}
+
+footer .container .footer-content .footer-center .top .profil-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  color: black;
+  background-color: white;
+  font-weight: bolder;
+  margin-bottom: 5px;
+}
+
+footer .container .footer-content .footer-center .top .text-footer {
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+footer .container .footer-content .footer-center .top .media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+}
+
+footer .container .footer-content .footer-center .center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+  padding: 20px 0;
+}
+
+footer .container .footer-content .footer-center .center .nav-contact {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+footer .container .footer-content .footer-center .center .nav-contact .navigation ul li a:hover {
+  color: black;
+  font-weight: bolder;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+footer .container .footer-content .footer-center .center .bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+}
+
+footer .container .footer-content .footer-center .center .bottom .gmail {
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10px;
+  background-color: white;
+  color: black;
+  padding: 0 5px 0 0;
+}
+
+footer .container .footer-content .footer-center .center .bottom .gmail input {
+  padding: 6px;
+  outline: none;
+  border-radius: 10px;
+  width: 250px;
+}
+
+footer .container .footer-bottom {
+  margin-top: 10px;
+  text-align: center;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  footer {
+    background-color: blue;
+    color: white;
+  }
+  footer .container .footer-content {
+    padding: 40px 0;
+  }
+  footer .container .footer-content .footer-top {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+  footer .container .footer-content .footer-top .contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  footer .container .footer-content .footer-center {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding-bottom: 10px;
+  }
+  footer .container .footer-content .footer-center .top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 10px;
+  }
+  footer .container .footer-content .footer-center .center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 20px;
+    padding: 20px 0;
+  }
+  footer .container .footer-content .footer-center .center .nav-contact {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  footer .container .footer-content .footer-center .center .bottom .gmail input {
+    padding: 6px;
+    outline: none;
+    border-radius: 10px;
+    width: 250px;
+  }
+  footer .container .footer-bottom {
+    margin-top: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  footer {
+    background-color: blue;
+    color: white;
+  }
+  footer .container .footer-content {
+    padding: 40px 0;
+  }
+  footer .container .footer-content .footer-top {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+  footer .container .footer-content .footer-top .contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  footer .container .footer-content .footer-center {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 40% 1fr;
+        grid-template-columns: 40% 1fr;
+    gap: 20px;
+    padding-bottom: 10px;
+  }
+  footer .container .footer-content .footer-center .top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 10px;
+  }
+  footer .container .footer-content .footer-center .center {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  footer .container .footer-content .footer-center .center .nav-contact {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  footer .container .footer-content .footer-center .center .bottom .gmail input {
+    padding: 6px;
+    outline: none;
+    border-radius: 10px;
+    width: 250px;
+  }
+  footer .container .footer-bottom {
+    margin-top: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  footer {
+    background-color: blue;
+    color: white;
+  }
+  footer .container .footer-content {
+    padding: 40px 0;
+  }
+  footer .container .footer-content .footer-top {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+  footer .container .footer-content .footer-top .contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  footer .container .footer-content .footer-center {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 40% 1fr;
+        grid-template-columns: 40% 1fr;
+    gap: 20px;
+    padding-bottom: 10px;
+  }
+  footer .container .footer-content .footer-center .top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 10px;
+  }
+  footer .container .footer-content .footer-center .center {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  footer .container .footer-content .footer-center .center .nav-contact {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  footer .container .footer-content .footer-center .center .bottom .gmail input {
+    padding: 6px;
+    outline: none;
+    border-radius: 10px;
+    width: 250px;
+  }
+  footer .container .footer-bottom {
+    margin-top: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1919px) {
+  footer {
+    background-color: blue;
+    color: white;
+  }
+  footer .container .footer-content {
+    padding: 40px 0;
+  }
+  footer .container .footer-content .footer-top {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+  footer .container .footer-content .footer-top .contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  footer .container .footer-content .footer-center {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 40% 1fr;
+        grid-template-columns: 40% 1fr;
+    gap: 20px;
+    padding-bottom: 10px;
+  }
+  footer .container .footer-content .footer-center .top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 10px;
+  }
+  footer .container .footer-content .footer-center .center {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  footer .container .footer-content .footer-center .center .nav-contact {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  footer .container .footer-content .footer-center .center .bottom .gmail input {
+    padding: 6px;
+    outline: none;
+    border-radius: 10px;
+    width: 250px;
+  }
+  footer .container .footer-bottom {
+    margin-top: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+/*# sourceMappingURL=Footer.css.map */

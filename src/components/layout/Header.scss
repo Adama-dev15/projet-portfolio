@@ -1,0 +1,48 @@
+.header {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 90000;
+  position: fixed;
+  width: 100%;
+
+  .container_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    border: 1px solid transparent;
+    padding: 10px 20px;
+    background-color: blue;
+    border-radius: 50px;
+
+    .floatToggle {
+      display: none;
+
+      @media (max-width: 768px) {
+        display: block;
+      }
+    }
+    .nav-link.active {
+      border: 1px solid transparent;
+      border-radius: 20px;
+      background-color: white;
+      color: black;
+      padding: 0px 8px;
+      transition: all 0.5s;
+    }
+
+    .name-user {
+      border: 1px solid transparent;
+      padding: 8px;
+      background-color: white;
+      color: black;
+      font-weight: bolder;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+    }
+  }
+}
